@@ -1,0 +1,153 @@
+.main_menu_container nav{
+    background: #010101;
+}
+
+.slide-one{
+    background: #4b4c92;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-heading{
+    color: white;
+    background-color: rgba(19, 20, 20, 0.726);
+    padding: 5px 10px;
+    
+}
+/* /Slider */
+/* Counter */
+
+.counter{
+    background: #010101 ;
+    padding: 1rem 1rem;
+}
+.count{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.counter_row *{
+    padding: 0 !important;
+}
+/* /Counter */
+/* Servies */
+.service-section{
+    background: #f0f0f2;
+    text-align: center;
+    padding: 5rem 0;
+    color:#010101
+}
+.services_icons{
+    padding: 2rem 0;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.icon_service{
+    width: 200px;
+    padding: 50px;
+    background: rgba(221, 60, 92, 0.377);
+    text-align: center;
+    color: white;
+}
+.icon_service:hover{
+    background: rgba(53, 127, 196, 0.377);
+
+}
+/* /Services */
+/* Latest Project  */
+.poject_section{
+    background: #010101;
+    color:white;
+    text-align: center;
+    padding:2rem 0;
+}
+.poject_section ul li{
+    display: inline;
+    cursor: pointer;
+}
+.item{
+    /* border:1px solid blue; */
+    background: #999;
+}
+.item:hover{
+    background: rgb(122, 166, 202);
+}
+.wrapper{
+/* height: 660px; */
+display:grid;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+/* background-color: #eee; */
+grid-template-columns: repeat(3 ,200px); 
+grid-template-rows:repeat(4, 150px);
+justify-content: center; 
+align-content: center; 
+}
+@media screen and (max-width:786px){
+    .wrapper{
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: repeat(2 ,150px); 
+        grid-template-rows:repeat(6, 150px);
+    
+        }
+        .services_icons{
+            margin-left:10%;
+        }
+        .count{
+            margin-left: 7%;
+        }
+        footer{
+            text-align: center;
+        }
+        .blog_slider_container{
+            display: block;
+            margin: o auto;
+        }
+        .service_content{
+            padding:0 50px;
+        }
+}
+/* /Latest Project  */
+
+
+/* Blog section */
+.blog_section{
+    padding:1rem;
+    background: #4b4c92;
+    color: white;
+    text-align: center;
+}
+.blog_text{
+    padding:2rem 0;
+}
+.blog_card{
+    background: #e0e0e0;
+    padding: 6rem 0 1rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    color:#010101;
+}
+.blog_cards_container{
+    margin-bottom: 50px;
+}
+/* /Blog section*/
+/* footer */
+footer{
+    background: #010101;
+    color:white;
+}
+.footer_sec{
+    /* width:  300px; */
+    padding: 1rem 4rem;
+}
+.copyright{
+    background: #333;
+    color:white;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
